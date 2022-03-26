@@ -1,12 +1,12 @@
 import { Container } from 'react-bootstrap';
 import AddTvItemModal from './components/AddTvItemModal';
-import TvCarousal from './components/TvCarousal';
+import TvCarousel from './components/TvCarousel';
 import TvList from './components/TvList';
 
 function App() {
   return (
     <Container>
-      <TvCarousal />
+      <TvCarousel />
       <TvList />
       <AddTvItemModal />
     </Container>

@@ -2,3 +2,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.container {
+  margin: 20px auto;
+}
+
+.tv-carousal img {
+  height: 300px;
+  object-fit: cover;
+}
