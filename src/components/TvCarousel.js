@@ -32,7 +32,7 @@ export default function TvCarousel() {
   ];
 
   return (
-    <Carousel className="tv-carousal">
+    <Carousel className="tv-carousal mb-5">
       {carousel.map((item) => (
         <Carousel.Item key={item.name}>
           <img className="d-block w-100" src={item.imgUrl} alt={item.name} />

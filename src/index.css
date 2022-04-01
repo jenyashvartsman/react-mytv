@@ -11,3 +11,16 @@ body {
   height: 300px;
   object-fit: cover;
 }
+
+.tv-list {
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 1em;
+}
+
+.tv-list img {
+  height: 300px;
+  object-fit: cover;
+}
